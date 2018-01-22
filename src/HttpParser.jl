@@ -1,7 +1,8 @@
 # Julian C bindings for Joyent's http-parser library.
 # see: https://github.com/joyent/http-parser
 #
-isdefined(Base, :__precompile__) && __precompile__()
+__precompile__()
+
 
 module HttpParser
 
